@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mintaro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Logo Animation Stage -->
+        <div id="logoStage" class="stage active">
+            <div class="logo-container">
+                <div class="logo-text">
+                    <span class="letter" data-letter="M">M</span>
+                    <span class="letter" data-letter="i">i</span>
+                    <span class="letter" data-letter="n">n</span>
+                    <span class="letter" data-letter="t">t</span>
+                    <span class="letter" data-letter="a">a</span>
+                    <span class="letter" data-letter="r">r</span>
+                    <span class="letter" data-letter="o">o</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Coming Soon Stage -->
+        <div id="comingSoonStage" class="stage">
+            <div class="content-container">
+                <!-- Main Title -->
+                <div class="main-title animate-element" data-delay="200">
+                    <h1>
+                        <span class="emoji">🌐</span>
+                        <span class="title-text">Mintaro is Coming</span>
+                    </h1>
+                </div>
+
+                <!-- Subtitle -->
+                <div class="subtitle animate-element" data-delay="600">
+                    <p>Trustless. Transparent. Freelance Reimagined.</p>
+                </div>
+
+                <!-- Call to Action -->
+                <div class="cta animate-element" data-delay="1000">
+                    <p>
+                        <span class="emoji">🚀</span>
+                        <span class="cta-text">Stay tuned. We're building something for the future of work.</span>
+                    </p>
+                </div>
+
+                <!-- Decorative Elements -->
+                <div class="decorative-dots animate-element" data-delay="1400">
+                    <div class="dot" style="animation-delay: 0s;"></div>
+                    <div class="dot" style="animation-delay: 0.5s;"></div>
+                    <div class="dot" style="animation-delay: 1s;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
